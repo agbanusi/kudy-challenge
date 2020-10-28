@@ -3,11 +3,11 @@
 ### Steps to recreate locally
 This project is made with ParcelJs and Love.
 
-copy and run these commands in your commandline
+Copy and run these commands in your commandline
 ```
 git clone https://github.com/agbanusi/kudy-challenge.git
 ```
-then,
+Then,
 ```
 cd kudy-challenge
 ```
@@ -20,7 +20,7 @@ If you don't have parcel-bundler installed on your system
 npm run start
 ```
 
-Tes Demo [here](https://5f99c52110d741255fa9b874--shape-generators.netlify.app)
+Test Demo [here](https://5f99c52110d741255fa9b874--shape-generators.netlify.app)
 
 ## Edge Cases
 - Negative Lengths
