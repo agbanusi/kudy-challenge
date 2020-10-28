@@ -1,0 +1,107 @@
+.cover{
+    display: grid;
+    justify-items: center;
+}
+.shapes{
+    stroke: black;
+    stroke-width: 3px;
+    fill: green;
+}
+.svg{
+    animation: rotate 3s ease-in-out;
+}
+@keyframes rotate{
+    0% {
+        transform:rotate(0deg)
+    }
+    15% {
+        transform:rotate(120deg)
+    }
+    30% {
+        transform:rotate(240deg)
+    }
+    45% {
+        transform:rotate(360deg)
+    }
+    60% {
+        transform:rotate(480deg)
+    }
+    75% {
+        transform:rotate(600deg)
+    }
+    90% {
+        transform:rotate(660deg)
+    }
+    100% {
+        transform:rotate(720deg)
+    }
+}
+.input-form{
+    width: 70%;
+    height: 65vh;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px grey;
+    display: grid;
+    justify-items: center;
+}
+.bobs{
+    display: flex;
+    font-size: x-small;
+    flex-wrap: wrap;
+}
+.bobby{
+    height: 1.25rem;
+    display: flex;
+    border-radius: 0.75rem;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-around;
+    width: 3.5rem;
+    background-color: yellow;
+}
+.back{
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.input-cover{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-cover input{
+    margin-top: 0.5rem;
+    width: 75%;
+    height: 1.5rem;
+    border-radius: 0.75rem;
+    padding: 0px 0.75rem 0px 0.75rem;
+}
+.h{
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+.numbers{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+button{
+    height: 2rem;
+    width: 5rem;
+    color: green;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.draw{
+    margin-top: 1rem;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin-bottom: 1rem;
+}
+
+/*# sourceMappingURL=/chall2.e31bb0bc.css.map */
