@@ -79,7 +79,7 @@ function Inpu(props){
             <h3>Enter the shape you want to draw below</h3>
             <div className='input-cover'>
                 <div className='bobs'>{shapes.map((i,k)=><Bob key={k} value={i.shape} remove={()=>remove(k)}/>)}</div>
-                <input className='shape' onChange={(e)=>setValue(e.target.value)} value={value} placeholder="Only triangles, circles, rectangles, and pentagons to decagons are allowed" />
+                <input className='shape' onChange={(e)=>setValue(e.target.value)} value={value} placeholder="Only triangle, circle, rectangle, and pentagon to decagon are allowed" />
             </div>
             <h3 className='h'>Enter the length or radius of the shape</h3>
             <input className='numbers' placeholder='no' value={length} onChange={(e)=>verify(e)} />

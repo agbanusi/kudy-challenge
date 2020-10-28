@@ -28538,7 +28538,7 @@ function Inpu(props) {
       return setValue(e.target.value);
     },
     value: value,
-    placeholder: "Only triangles, circles, rectangles, and pentagons to decagons are allowed"
+    placeholder: "Only triangle, circle, rectangle, and pentagon to decagon are allowed"
   })), /*#__PURE__*/_react.default.createElement("h3", {
     className: "h"
   }, "Enter the length or radius of the shape"), /*#__PURE__*/_react.default.createElement("input", {
