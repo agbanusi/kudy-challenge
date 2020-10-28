@@ -20,4 +20,11 @@ If you don't have parcel-bundler installed on your system
 npm run start
 ```
 
-Live test [here](https://5f99c52110d741255fa9b874--shape-generators.netlify.app)
+Tes Demo [here](https://5f99c52110d741255fa9b874--shape-generators.netlify.app)
+
+## Edge Cases
+- Negative Lengths
+- Fractional Lengths
+- Decimals
+- Length in words
+- So many shapes not accounted for
