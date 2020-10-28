@@ -28,3 +28,10 @@ Test Demo [here](https://5f99c52110d741255fa9b874--shape-generators.netlify.app)
 - Decimals
 - Length in words
 - So many shapes not accounted for
+
+## Properties
+- Shape generation for circle, rectangle, triagnle, pentagon to decagon
+- multiple shapes generation but one submission per one
+- color selection of shapes
+- animation of shapes
+- Storage of data in broser memory, so after reload data still remains
